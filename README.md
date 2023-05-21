@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Página web de frutas</title>
 </head>
 <body>
   <h1>Página web de frutas</h1>
