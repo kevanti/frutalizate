@@ -1,0 +1,132 @@
+/*Menu de la página*/
+body{
+margin: 0;
+}
+header {
+justify-content: space-between;
+display: flex;
+align-items: center;
+background-color: black;
+color: white;
+padding-left: 8px;
+}
+nav {
+padding: 10px;
+justify-content: end;
+}
+nav ul {
+margin: 0;
+padding: 0;
+}
+
+nav li {
+display: inline-block;
+margin-right: 15px;
+}
+
+nav a {
+display: block;
+padding: 10px;
+color: #fff;
+}
+
+nav a:hover {
+background-color: lightgreen;
+color: black;
+border-radius: 10px;
+}
+a{
+font-size: 20px;
+text-decoration: none;
+}
+
+span.icon-cart{
+color: white;
+font-size: 30px;
+margin-right: 10px;
+}
+span.icon-cart:hover{
+color: lightgreen;
+}
+div.id {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 600px;
+border: solid 1px #000;
+background-color: lightgreen;
+}
+h1.compra{
+font-size: 50px;
+color: black;
+margin-bottom: 20px;
+text-align: center;
+}
+
+form {
+display: flex;
+flex-direction: column;
+max-width: 600px;
+margin: 10px auto 20px;
+padding: 20px;
+border: 2px solid #ddd;
+border-radius: 10px;
+}
+
+label {
+font-size: 20px;
+margin-bottom: 5px;
+}
+form input{
+  padding-right: 10px;
+}
+
+form>.nombre, .email,textarea, .tarjeta, .caducidad, .cvv {
+padding: 10px;
+margin-bottom: 20px;
+border-radius: 5px;
+border: 1px solid #ddd;
+font-size: 20px;
+}
+
+form>.comprar {
+background-color: black;
+color: #fff;
+border: none;
+border-radius: 5px;
+font-size: 20px;
+padding: 10px 20px;
+}
+
+form>.comprar:hover {
+background-color: lightgreen;
+color: black;
+}
+
+/*footer*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.legal {
+  text-align: center;
+}
+
+.legal a {
+  color: #fff;
+  font-weight: bold;
+}

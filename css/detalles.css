@@ -1,0 +1,139 @@
+/*Menu de la página*/
+body{
+    margin: 0;
+  }
+  header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-left: 8px;
+  }
+  nav {
+    padding: 10px;
+    justify-content: end;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  nav a:hover {/*Cuando el cursor pasa por encima del enlace*/
+    background-color: lightgreen;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  a{
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  span.icon-cart{
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  div.id {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border: solid 1px #000;
+    background-color: lightgreen;
+  }
+
+  /*detalles*/
+  .detalles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .detalles > div {
+    flex: 1;
+    margin: 10px;
+    max-width: 600px;
+  }
+  
+  .detalles img {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  .texto {
+    margin-bottom: 20px;
+  }
+  
+  .detalles h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .detalles p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .detalles button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+  
+  .detalles button:hover {
+    background-color: lightgreen;
+    color: black;
+  }
+   
+ 
+  
+/*footer*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #fff;
+  margin-right: 20px;
+}
+
+.legal {
+  text-align: center;
+}
+
+.legal a {
+  color: #fff;
+  font-weight: bold;
+}

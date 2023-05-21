@@ -1,0 +1,225 @@
+/*Menu de la página*/
+body{
+    margin: 0;
+  }
+  header {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-left: 8px;
+  }
+  nav {
+    padding: 10px;
+    justify-content: end;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  nav a:hover {/*Cuando el cursor pasa por encima del enlace*/
+    background-color: lightgreen;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  a{
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  span.icon-cart{
+    color: white;
+    font-size: 30px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  div.id {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    border: solid 1px #000;
+  }
+
+  /*NOSOTROS*/
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    border: solid 1px #000;
+  }
+  div .texth2{
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    font-style: bold;
+  }
+  .QSomos {
+    width: 1100px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    border: dashed 2px #000;
+    margin: 20px auto 0;
+  }
+
+  /*Por que debes elegirnos*/
+  div>h3{
+    margin-top: 50px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    font-style: bold;
+  }
+  .contenedor1 {
+    padding: 20px;
+  }
+  
+  .img1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .img1 > div:first-child {
+    padding-right: 40px;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 50px;
+  }
+  
+  .img1 img {
+    max-width: 100%;
+    height: 300px;
+    width: 2000px;
+  }
+  
+  div div > :first-child {
+    font-style: bold;
+    font-size: 30px;
+    color: black;
+  }
+.img2{
+  display: flex;
+  align-items: center;
+}
+.img2 div{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.img2 img{
+  max-width: 100%;
+  height: 300px;
+  width: 3000px;
+}
+.img2 >div>p:first-child{
+  font-size: 30px;
+  color: black;
+  font-style: bold;
+}
+.img2 p{
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  border: solid 1px #000;
+  background-color: lightgreen;
+}
+.texth2{
+  font-size: 50px;
+  color: black;
+  text-align: center;
+}
+.QSomos {
+  width: 1100px;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  border: dashed 2px #000; 
+  margin: 20px auto 0;
+}
+
+/*Por que debes elegirnos*/
+
+.contenedor {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.img3 {
+  display: flex;
+  align-items: center;
+}
+
+.img3 > div:first-child {
+  padding-right: 40px;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 50px;
+}
+
+.img3 img {
+  max-width: 100%;
+  height: 300px;
+  width: 3000px;
+}
+
+div div > :first-child {
+  font-style: bold;
+  font-size: 30px;
+  color: black;
+}
+
+
+  /*footer*/
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer a {
+    color: #fff;
+    margin-right: 20px;
+  }
+  
+  .legal {
+    text-align: center;
+  }
+  
+  .legal a {
+    color: #fff;
+    font-weight: bold;
+  }

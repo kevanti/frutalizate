@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--sitemaps-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://daw.bienvenidosaez.es/alumnos/kevin/html/kevin</loc>
+        <lastmod>2023-04-10</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://daw.bienvenidosaez.es/alumnos/kevin/html/productos.html</loc>
+        <lastmod>2023-04-10</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://daw.bienvenidosaez.es/alumnos/kevin/html/nosotros.html</loc>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://daw.bienvenidosaez.es/alumnos/kevin/html/imagenes/contacto.html</loc>
+        <lastmod>2023-04-10</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://daw.bienvenidosaez.es/alumnos/kevin/html/imagenes/carrito.html</loc>
+        <lastmod>2023-04-10</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://daw.bienvenidosaez.es/alumnos/kevin/html/comprar.html</loc>
+        <lastmod>2023-04-10</lastmod>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://daw.bienvenidosaez.es/alumnos/kevin/html/paginalegal.html</loc>
+        <lastmod>2023-04-10</lastmod>
+        <priority>0.8</priority>
+    </url>
+</urlset>
